@@ -1,6 +1,6 @@
 # rede-social-php
 
-Projeto de "Rede Social" feita em sua marioria com PHP puro.
+"Antigo" projeto de "Rede Social" feita em sua marioria com PHP puro.
 Por mais que tenha o nome, eu não queria fazer realmente uma rede social completa, e sim só estava apredendo o PHP/Back-End.
 Porém, já tinha um sistema de login, cadastro, fazer publicações, deletar (e já estava encaminhando dar like, comentario etc kljkj).
 
