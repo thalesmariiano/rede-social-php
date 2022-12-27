@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+#edit-container {
+	padding: 10px;
+	background-color: #303030;
+	box-shadow: 0px 0px 5px #202020;
+	text-align: center;
+}
+
+#user-photo {
+	position: relative;
+}
+
+#edit-img {
+	position: absolute;
+	top: 0px;
+	left: 28px;
+	width: 180px;
+	height: 180px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid #202020;
+	display: none;
+	transition: opacity .2s;
+	cursor: pointer;
+}
+
+#photo {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 3px solid #202020;
+}
+
+#user-photo:hover #edit-img {
+	display: flex;
+}
+
+input[type=email]{
+	opacity: .3;
+	pointer-events: none;
+}
+
+input[type=password]{
+	opacity: .3;
+	pointer-events: none;
+}
+
+
+

@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	color: white;
+	background-color: #252525;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 90vh;
+}
+
+form {
+	
+}
+
+#login-container {
+	padding: 10px;
+	background-color: #303030;
+	box-shadow: 0px 0px 5px #202020;
+	width: 276px;
+	height: 265px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.input-container {
+	border: 1px solid grey;
+	border-radius: 5px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	height: 19px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.input-container input {
+	outline: none;
+	background: none;
+	border: none;
+	width: 100%;
+}
+
+#seePass {
+	color: black;
+	display: none;
+	cursor: pointer;
+	user-select: none;
+}
+
+.btnDefault {
+	padding: 5px 15px;
+	cursor: pointer;
+}
+
+#createContaLink {
+	margin-top: 5px;
+	font: 14px arial;
+	opacity: .8;
+}
+
+#createContaLink a {
+	color: #c2c2c2;
+	text-decoration: none;
+}
+
+#createContaLink a:hover {
+	text-decoration: underline;
+}
+
+.waitResponse {
+	pointer-events: none;
+	opacity: .3;
+}
+
+.blockBtn {
+	pointer-events: none;
+	opacity: .3;
+}
+
+.spinner-container {
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	display: none;
+}
+
+.spinner {
+	width: 20px;
+	height: 20px;
+	border: 3px solid grey;
+	border-top: 3px solid white;
+	border-right: 3px solid white;
+	border-radius: 50%;
+	animation: 1s linear infinite spinner;
+}
+
+@keyframes spinner {
+	from{ transform: rotateZ(0deg); }
+	to{ transform: rotateZ(360deg); }
+}
+
